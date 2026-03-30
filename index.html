@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAS STUDIOS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="websiteHeader">
+      <h1>DAS STUDIOS</h1>
+    </div>
+
+    <div class="container" id="pr">
+      <div class="sidebar">
+        <div class="hor">
+          <button class="bon">About Us</button>
+          <button class="smallbon"></button>
+        </div>
+
+        <button class="bon" onclick="toggleFiles()" id="showFiles">
+          Projects
+        </button>
+        <div id="files"></div>
+        <div class="hor">
+          <button class="bon sourceCode">Source Code</button>
+          <button class="smallbon">(+)</button>
+        </div>
+
+        <h2>A place to find creativity</h2>
+      </div>
+
+      <div class="content" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
